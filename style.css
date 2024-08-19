@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top:33vh;
+}
+ 
+.stage {
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 10px;
+}
+  
+.tower {
+    width: 100px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+  
+.stick {
+    width: 7px;
+    height: 140px;
+    background: #000;
+    position: absolute;
+    border-radius: 5px;
+}
+  
+.plate {
+    width: 115px;
+    height: 10px;
+    background: black;
+    border-radius: 10px;
+    z-index: 1;
+}
+  
+.disc {
+    height: 18px;
+    border-radius: 3px;
+    z-index: 1;
+}  
+.is-dragging {
+    opacity: 0.3;
+}
